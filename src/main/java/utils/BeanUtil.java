@@ -6,9 +6,8 @@ import java.lang.reflect.Method;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 public class BeanUtil {
 
@@ -18,7 +17,6 @@ public class BeanUtil {
         Class c = t.getClass();
         Class resultClass = resultSet.getClass();
         Field[] fields = c.getDeclaredFields();
-        Map<String,String> fieldsMap = new HashMap<String, String>();
 
         while (resultSet.next()){
             for (Field f:fields) {
@@ -62,7 +60,6 @@ public class BeanUtil {
         Class c = t.getClass();
         Class resultClass = resultSet.getClass();
         Field[] fields = c.getDeclaredFields();
-        Map<String,String> fieldsMap = new HashMap<String, String>();
 
         while (resultSet.next()){
             for (Field f:fields) {
