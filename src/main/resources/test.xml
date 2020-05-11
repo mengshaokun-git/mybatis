@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//msk.mybatis.org//DTD Mapper 3.0//EN" "mapper.dtd">
+<mapper namespace="">
+<select id="">
+    select * from xxx
+</select>
+    <delete id="">
+
+    </delete>
+
+    <update id="">
+
+    </update>
+
+    <insert id="">
+
+    </insert>
+</mapper>

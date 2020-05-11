@@ -1,5 +1,6 @@
 package jdbc;
 
+import meng.springframework.annotation.Component;
 import utils.BeanUtil;
 
 import java.sql.Connection;
@@ -11,6 +12,7 @@ import java.util.List;
  * 增删改查管理类
  * @author MengShaokun
  */
+@Component
 public class OperationManager {
 
     //增加
